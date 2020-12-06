@@ -36,7 +36,7 @@ To reach our cluster you should run command
 gcloud container clusters get-credentials project2 --region us-central1
 ```
 
-After thar run command 
+After that run command 
 
 ```
 kubectl get nodes
