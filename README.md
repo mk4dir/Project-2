@@ -28,4 +28,19 @@ Afer that run command
 terraform apply 
 ```
 
+### Reach Kubernetes Cluster
+
+To reach our cluster you should run command
+
+```
+gcloud container clusters get-credentials project2 --region us-central1
+```
+
+After thar run command 
+
+```
+kubectl get nodes
+```
+
+
 Reference: https://www.fairwinds.com/blog/how-to-use-terraform-with-gke-a-step-by-step-guide-to-deploying-your-first-cluster  
